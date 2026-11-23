@@ -13,4 +13,14 @@ public class MainTest {
 
         assertEquals(5, result);
     }
+
+    @Test
+    void testSubtraction() {
+
+        // checks if 5 - 3 equals 2
+        int result = 5 - 3;
+
+        assertEquals(2, result);
+    }
+
 }
